@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Register</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="main.js"></script>
+</head>
+<body class="registration">
+  <div class="container">
+    <h2>Create Your Account 🌸</h2>
+    <form id="registerForm">
+      <div class="input-group">
+        <span class="icon"><i class="fa fa-user"></i></span>
+        <input type="text" id="fullName" placeholder="Full Name" required>
+      </div>
+      <div class="input-group">
+        <span class="icon"><i class="fa fa-user"></i></span>
+        <input type="text" id="regUsername" placeholder="Username" required>
+      </div>
+      <div class="input-group">
+        <span class="icon"><i class="fa fa-lock"></i></span>
+        <input type="password" id="regPassword" placeholder="Password" required>
+      </div>
+      <div class="input-group">
+        <span class="icon"><i class="fa fa-envelope"></i></span>
+        <input type="email" id="regEmail" placeholder="Email" required>
+      </div>
+      <div class="input-group">
+        <span class="icon"><i class="fa fa-phone"></i></span>
+        <input type="text" id="regPhone" placeholder="Phone Number">
+      </div>
+      <div class="input-group">
+        <span class="icon"><i class="fa fa-calendar"></i></span>
+        <input type="date" id="regDOB">
+      </div>
+      <div class="input-group">
+        <span class="icon"><i class="fa fa-venus-mars"></i></span>
+        <select id="regGender">
+          <option value="">Select Gender</option>
+          <option>Male</option>
+          <option>Female</option>
+          <option>Other</option>
+        </select>
+      </div>
+      <button type="submit" class="btn">Register</button>
+    </form>
+    <div class="redirect">
+      <p>Already have an account? <a href="login.html">Login here</a></p>
+    </div>
+  </div>
+</body>
+</html>

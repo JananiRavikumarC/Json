@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="main.js"></script>
+</head>
+<body class="login">
+  <div class="container">
+    <h2>Login</h2>
+    <div class="input-group">
+      <span class="icon"><i class="fa fa-user"></i></span>
+      <input type="text" id="loginUsername" placeholder="Username">
+    </div>
+    <div class="input-group">
+      <span class="icon"><i class="fa fa-lock"></i></span>
+      <input type="password" id="loginPassword" placeholder="Password">
+    </div>
+    <button class="btn" onclick="login()">Login</button>
+    <div class="forgot">
+      <a href="#" onclick="forgotPassword()">Forgot Password?</a>
+    </div>
+    <div class="redirect">
+      <p>New user? <a href="registration.html">Register here</a></p>
+    </div>
+  </div>
+</body>
+</html>
